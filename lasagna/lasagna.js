@@ -1,17 +1,3 @@
-/* 1. Defina el tiempo esperado del horno en minutos.
-Define la EXPECTED_MINUTES_IN_OVEN constante que representa 
-cuántos minutos debe estar la lasaña en el horno. 
-Hay que exportarlo. Según el libro de cocina, el 
-tiempo esperado en el horno en minutos es 40. */
-
-/* 2. Calcula el tiempo restante del horno en minutos.
-Implemente la remainingMinutesInOvenfunción que toma 
-como parámetro los minutos reales que la lasaña ha 
-estado en el horno y devuelve cuántos minutos aún le 
-quedan a la lasaña en el horno, según el tiempo de 
-horno esperado en minutos de la tarea anterior.
- */
-
 /*
  * La cantidad de minutos que se necesita para preparar una sola capa.
  */
