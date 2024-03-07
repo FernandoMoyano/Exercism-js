@@ -1,20 +1,20 @@
 # Hints
 
-## 1. Check if the 'Fast Attack' action is possible
+## 1. Compruebe si la acción de 'ataque rápido' es posible
 
-- The logical NOT operator (`!`) can be placed before an expression to negate its value.
-- Check out [this MDN article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators#Logical_NOT_!) on Logical Operators
+- El operador lógico no (`!`) Se puede colocar antes de una expresión para negar su valor.
+- Verificar[this MDN article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators#Logical_NOT_!) en operadores lógicos
 
-## 2. Check if the 'Spy' action is possible
+## 2.Compruebe si la acción 'espía' es posible
 
-- Logical expressions are evaluated from left to right and are tested for possible 'short-circuits'.
-- For a comprehensive understanding of the left-to-right mechanic, take a look at [this article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)!
+- Las expresiones lógicas se evalúan de izquierda a derecha y se prueban para posibles 'cortocircuitos'.
+- Para una comprensión integral del mecánico de izquierda a derecha, eche un vistazo a [this article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)!
 
-## 3. Check if the 'Signal Prisoner' action is possible
+## 3.Compruebe si la acción de 'prisionero de señal' es posible
 
-- Logical operators in the order of their precedence (from highest to lowest): `!`, `&&`, `||`.
-- Check out [this MDN article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Precedence_And_Associativity) on Operator Precedence
+- Operadores lógicos en el orden de su precedencia (de más alta a más baja): `!`, `&&`, `||`.
+- Verificar [this MDN article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Precedence_And_Associativity) en la precedencia del operador
 
-## 4. Check if the 'Free Prisoner' action is possible
+## 4. Compruebe si es posible la acción de 'prisionero libre'
 
-- `()` is the operator with the highest precedence. Use it to group logical expressions.
+- `()` es el operador con la mayor precedencia.Úselo para agrupar expresiones lógicas.

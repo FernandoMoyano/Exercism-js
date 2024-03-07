@@ -1,75 +1,72 @@
 // @ts-check
 //
-// ☝🏽 The line above enables type checking for this file. Various IDEs interpret
-// the @ts-check directive. It will give you helpful autocompletion on the web
-// and supported IDEs when implementing this exercise. You don't need to
-// understand types, JSDoc, or TypeScript in order to complete this JavaScript
-// exercise, and can completely ignore this comment block and directive.
-
+// ☝🏽 La línea anterior habilita la verificación de tipo para este archivo.Varios ides interpretan
+// La directiva @TS-Check.Le dará un servicio automático útil en la web
+// y IDES admitido al implementar este ejercicio.No necesitas
+// Comprender los tipos, JSDOC o TypeScript para completar este JavaScript
+// ejercicio, y puede ignorar por completo este bloque de comentarios y directiva.
 // 👋🏽 Hi again!
 //
-// A quick reminder about exercise stubs:
+// Un recordatorio rápido sobre los trozos de ejercicio:
 //
-// 💡 You're allowed to completely clear any stub before you get started. Often
-// we recommend using the stub, because they are already set-up correctly to
-// work with the tests, which you can find in ./annalyns-infiltration.spec.js.
+// 💡 Se le permite despejar completamente cualquier trozo antes de comenzar.A menudo
+// Recomendamos usar el stub, porque ya están configurados correctamente para
+// Trabaja con las pruebas, que puedes encontrar en ./annalyns-infiltration.spec.js.
 //
-// 💡 You don't need to write JSDoc comment blocks yourself; it is not expected
-// in idiomatic JavaScript, but some companies and style-guides do enforce them.
+// 💡 No necesitas escribir un comentario JSDOC bloquea tú mismo;No se espera
+// En JavaScript idiomático, pero algunas empresas y guías de estilo los hacen cumplir.
 //
-// Now help Annalyn free her best friend!
+// ¡Ahora ayude a Annalyn a liberar a su mejor amiga!
 
 /**
- * The fast attack is available when the knight is sleeping
- *
- * @param {boolean} knightIsAwake
- *
- * @return {boolean} Whether or not you can execute a fast attack.
+ * El ataque rápido está disponible cuando el caballero está durmiendo
+ * @param {boolean} knightIsAwake //el caballero esta despierto
+ * @return {boolean} Si puede o no ejecutar un ataque rápido.
  */
 export function canExecuteFastAttack(knightIsAwake) {
-  throw new Error('Remove this line and implement the function');
+  throw new Error("Remove this line and implement the function");
 }
 
 /**
- * A useful spy captures information, which they can't do if everyone's asleep.
+ *Un espía útil captura información, que no pueden hacer si todos están dormidos.
  *
- * @param {boolean} knightIsAwake
- * @param {boolean} archerIsAwake
- * @param {boolean} prisonerIsAwake
+ * @param {boolean} knightIsAwake //estado del caballero=> despierto/dormido
+ * @param {boolean} archerIsAwake //estado del arquero=> despierto/dormido
+ * @param {boolean} prisonerIsAwake //estado del priosenero=> despierto/dormido
  *
- * @returns {boolean} Whether or not you can spy on someone.
+ * @returns {boolean} Si puedes o no espiar a alguien.
  */
 export function canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake) {
-  throw new Error('Remove this line and implement the function');
+  throw new Error("Remove this line and implement the function");
 }
 
 /**
- * You'll get caught by the archer if you signal while they're awake.
+ * El arquero lo atrapará si señala mientras están despiertos.
  *
- * @param {boolean} archerIsAwake
- * @param {boolean} prisonerIsAwake
+ * @param {boolean} archerIsAwake //Estado del arquero=> despierto/dormido
+ * @param {boolean} prisonerIsAwake //Estado del prisionero=> despierto/dormido
  *
- * @returns {boolean} Whether or not you can send a signal to the prisoner.
+ * @returns {boolean} Si puede o no enviar una señal al prisionero.
  */
 export function canSignalPrisoner(archerIsAwake, prisonerIsAwake) {
-  throw new Error('Remove this line and implement the function');
+  throw new Error("Remove this line and implement the function");
 }
 
 /**
- * The final stage in the plan: freeing Annalyn's best friend.
+ * La etapa final en el plan: liberar el mejor amigo de Annalyn.
  *
- * @param {boolean} knightIsAwake
- * @param {boolean} archerIsAwake
- * @param {boolean} prisonerIsAwake
- * @param {boolean} petDogIsPresent
+ * @param {boolean} knightIsAwake //Estado del arquero=> despierto/dormido
+ * @param {boolean} archerIsAwake //Estado del arquero=> despierto/dormido
+ * @param {boolean} prisonerIsAwake //Estado del prisionero=> despierto/dormido
+ * @param {boolean} petDogIsPresent //Estado de la mascota=> presente/ausente
  *
- * @returns {boolean} Whether or not you can free Annalyn's friend.
+ * @returns {boolean} Si puedes o no liberar a la amiga de Annalyn.
  */
 export function canFreePrisoner(
   knightIsAwake,
   archerIsAwake,
   prisonerIsAwake,
-  petDogIsPresent,
+  petDogIsPresent
 ) {
-  throw new Error('Remove this line and implement the function');
+  throw new Error("Remove this line and implement the function");
 }
