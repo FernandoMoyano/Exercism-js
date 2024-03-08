@@ -1,14 +1,14 @@
 # Help
 
-## Running the tests
+## Ejecutando las pruebas
 
-## Setup
+## Configuración
 
 Go through the setup [instructions for JavaScript][docs-exercism-javascript] to install the necessary dependencies.
 
-## Requirements
+## Requisitos
 
-Install assignment dependencies:
+Instalar dependencias de asignación:
 
 ```shell
 # Using npm
@@ -18,10 +18,10 @@ npm install
 yarn
 ```
 
-## Making the test suite pass
+## Hacer que la suite de prueba pase
 
-All exercises come with a test suite to help you validate your solution before submitting.
-You can execute these tests by opening a command prompt in the exercise's directory, and then running:
+Todos los ejercicios vienen con una suite de prueba para ayudarlo a validar su solución antes de enviar.
+Puede ejecutar estas pruebas abriendo un símbolo del sistema en el directorio del ejercicio y luego ejecutando:
 
 ```bash
 # Using npm
@@ -31,13 +31,12 @@ npm test
 yarn test
 ```
 
-In some test suites all tests but the first have been skipped.
-
-Once you get a test passing, you can enable the next one by changing `xtest` to `test`.
+En algunas suites de prueba todas las pruebas, pero las primeras han sido omitidas.
+Una vez que obtenga una prueba que pasa, puede habilitar el siguiente cambiando `test` a` test`.
 
 ## Writing custom tests
 
-If you wish to write additional, custom, tests, create a new file `custom.spec.js`, and submit it with your solution together with the new file:
+Si desea escribir adicionales, personalizados, pruebas, cree un nuevo archivo `custom.spec.js` y envíelo con su solución junto con el nuevo archivo:
 
 ```shell
 exercism submit numbers.js custom.spec.js
@@ -45,29 +44,29 @@ exercism submit numbers.js custom.spec.js
 
 [docs-exercism-javascript]: https://exercism.org/docs/tracks/javascript/installation
 
-## Submitting your solution
+## Enviar su solución
 
-You can submit your solution using the `exercism submit annalyns-infiltration.js` command.
-This command will upload your solution to the Exercism website and print the solution page's URL.
+Puede enviar su solución utilizando el `exercism submit annalyns-infiltration.js` dominio.
+Este comando cargará su solución al sitio web del ejercicio e imprimirá la URL de la página de la solución.
 
-It's possible to submit an incomplete solution which allows you to:
+Es posible enviar una solución incompleta que le permita:
 
-- See how others have completed the exercise
-- Request help from a mentor
+- Vea cómo otros han completado el ejercicio
+- Solicite ayuda de un mentor
 
 ## Need to get help?
 
-If you'd like help solving the exercise, check the following pages:
+Si desea ayudar a resolver el ejercicio, consulte las siguientes páginas:
 
 - The [JavaScript track's documentation](https://exercism.org/docs/tracks/javascript)
 - The [JavaScript track's programming category on the forum](https://forum.exercism.org/c/programming/javascript)
 - [Exercism's programming category on the forum](https://forum.exercism.org/c/programming/5)
 - The [Frequently Asked Questions](https://exercism.org/docs/using/faqs)
 
-Should those resources not suffice, you could submit your (incomplete) solution to request mentoring.
+Si esos recursos no son suficientes, puede enviar su solución (incompleta) para solicitar la tutoría.
 
-To get help if you're having trouble, you can use one of the following resources:
+Para obtener ayuda si tiene problemas, puede usar uno de los siguientes recursos:
 
-- [/r/javascript](https://www.reddit.com/r/javascript) is the Javascript subreddit.
-- [StackOverflow](https://stackoverflow.com/questions/tagged/javascript+exercism) can be used to search for your problem and see if it has been answered already. You can also ask and answer questions.
-- [Github issue tracker](https://github.com/exercism/javascript/issues) is where we track our development and maintainance of Javascript exercises in exercism. But if none of the above links help you, feel free to post an issue here.
+- [/r/javascript](https://www.reddit.com/r/javascript) es el JavaScript Subreddit.
+- [StackOverflow](https://stackoverflow.com/questions/tagged/javascript+exercism) Se puede usar para buscar su problema y ver si ya ha sido respondido.También puede hacer y responder preguntas.
+- [Github issue tracker](https://github.com/exercism/javascript/issues) es donde rastreamos nuestro desarrollo y mantenimiento de los ejercicios de JavaScript en el ejercismo.Pero si ninguno de los enlaces anteriores lo ayuda, no dude en publicar un problema aquí.
