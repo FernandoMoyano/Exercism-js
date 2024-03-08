@@ -40,10 +40,11 @@ export function canExecuteFastAttack(knightIsAwake) {
  * @returns {boolean} Si puedes o no espiar a alguien.
  */
 export function canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake) {
-  if (!knightIsAwake && !archerIsAwake && !prisonerIsAwake) {
+  if (knightIsAwake || archerIsAwake || prisonerIsAwake) {
     return true;
+  } else {
+    return false;
   }
-  return false;
 }
 
 /**
@@ -79,9 +80,10 @@ export function canFreePrisoner(
 ) {
   if (
     (petDogIsPresent && !archerIsAwake) ||
-    (prisonerIsAwake && !knightIsAwake && archerIsAwake)
+    (!petDogIsPresent && prisonerIsAwake && !knightIsAwake && !archerIsAwake)
   ) {
     return true;
+  } else {
+    return false;
   }
-  return false;
 }
